@@ -1,7 +1,3 @@
-# shop_app
+# Shop App
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
+A custom shopping app.
