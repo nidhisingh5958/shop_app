@@ -1,12 +1,42 @@
-// dummy data
-
 final products = [
   {
     'id': '0',
     'title': 'Men\'s Nike Shoes',
-    'price': 3325,
+    'price': 3325.05,
     'imageUrl': 'assets/images/nike_revolution.png',
     'company': 'Nike',
+    'sizes': [7, 8, 9, 10, 11],
+  },
+  {
+    'id': '1',
+    'title': 'Adidas Shoes',
+    'price': 2500.56,
+    'imageUrl': 'assets/images/adimove.png',
+    'company': 'Adidas',
     'sizes': [8, 9, 10, 11],
+  },
+  {
+    'id': '2',
+    'title': 'Puma Shoes',
+    'price': 1999.55,
+    'imageUrl': 'assets/images/puma-shoes.png',
+    'company': 'Puma',
+    'sizes': [8, 9, 10, 11],
+  },
+  {
+    'id': '3',
+    'title': 'Women\'s Shoes',
+    'price': 3500.00,
+    'imageUrl': 'assets/images/women-shoes.png',
+    'company': 'Puma',
+    'sizes': [6, 7, 8, 9],
+  },
+  {
+    'id': '4',
+    'title': 'Women\'s Trainers',
+    'price': 1500.00,
+    'imageUrl': 'assets/images/women-trainers.png',
+    'company': 'Bata',
+    'sizes': [6, 7, 8],
   },
 ];

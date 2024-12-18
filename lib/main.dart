@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:shop_app/product_details.dart';
-import 'package:shop_app/global_variables.dart';
+import 'package:shop_app/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -21,36 +20,34 @@ class MyApp extends StatelessWidget {
         ),
         appBarTheme: AppBarTheme(
           titleTextStyle: const TextStyle(
-            fontSize: 10,
+            fontSize: 18,
             color: Colors.black,
           ),
         ),
         inputDecorationTheme: const InputDecorationTheme(
           hintStyle: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 16,
+            fontSize: 24,
           ),
           prefixIconColor: Color.fromARGB(255, 72, 72, 57),
         ),
         textTheme: TextTheme(
           titleLarge: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 25,
+            fontSize: 33,
           ),
           titleMedium: TextStyle(
-            fontSize: 18,
+            fontSize: 25,
             fontWeight: FontWeight.bold,
           ),
           bodySmall: TextStyle(
             fontWeight: FontWeight.bold,
-            fontSize: 10,
+            fontSize: 16,
           ),
         ),
         useMaterial3: true,
       ),
-      home: ProductDetailsPage(
-        product: products[0],
-      ),
+      home: const HomePage(),
     );
   }
 }
